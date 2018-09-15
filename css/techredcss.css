@@ -1,0 +1,381 @@
+﻿/* 
+
+Theme & Template Designed By: Todd Swift
+ThemeKings --  www.themekings.net
+Sept. 2009  All Rights Reserved
+Tech-Red Revised 02/12
+
+*/
+
+body {
+	background-image: url('../theme/bgnd.jpg');
+	background-repeat: repeat;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	overflow: auto;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: .8em;
+	color: #E8E8E8;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+}
+/* Container's */
+#header {
+	background-image: url('../theme/headfill-bgnd.jpg');
+	background-repeat: repeat-x;
+	background-position: center top;
+	padding: 0px;
+	margin: 0px;
+	height: 300px;
+	position: relative;
+}
+#banner {
+	background-image: url('../theme/banner.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	width: 984px;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+}
+#banner-img {
+	background-image: url('../theme/banner-template.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	width: 978px;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+	top: 17px;
+}
+#logo {
+	padding: 0px;
+	margin: 28px 0px 0px 16px;
+	width: 280px;
+	height: 300px;
+	position: relative;
+	overflow: visible;
+}
+#wrapper {
+	background-position: center top;
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	width: 984px;
+	position: relative;
+	overflow: auto;
+	background-image: url('../theme/body-fill.jpg');
+	background-repeat: repeat-y;
+}
+#footer {
+	background-image: url('../theme/footer.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	width: 984px;
+	height: 82px;
+	position: relative;
+	overflow: hidden;
+}
+#foot-notes {
+	padding: 0px;
+	margin: 15px auto 0px auto;
+	width: 900px;
+	position: relative;
+	overflow: hidden;
+	font-size: 80%;
+	color: #BEBEBE;
+	text-align: center;
+}
+
+/* Horizontal Navigation */
+
+#h-navBox {
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	width: 896px;
+	height: 32px;
+	position: relative;
+	top: 21px;
+}
+#hz-menu {
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	width: 896px;
+	height: 32px;
+	position: relative;
+	overflow: hidden;
+	list-style-type: none;
+	clear: left;
+}
+#hz-menu ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+#hz-menu ul li {
+	padding: 0px;
+	margin: 0px 2px 0px 2px;
+	width: 124px;
+	height: 32px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+	line-height: 200%;
+	font-size: 110%;
+	font-weight: bold;
+}
+a.h1button {
+	background: url('../theme/butns-nav.png') no-repeat 0 0;
+	width: 124px;
+	height: 32px;
+	display: block;
+	color: #F2f2f2;
+	text-decoration: none;
+}
+a.h1button:hover {
+	background-position: 0 -32px;
+	color: #ffffff;
+	text-decoration: none;
+}
+a.h1button:active {
+	background-position: 0 -32px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+/* Clears & Floats */
+.clearL {
+	margin:0px;
+	padding:0px;
+	clear:left;
+}
+.clearR {
+	margin:0px;
+	padding:0px;
+	clear:right;
+}
+.clearB {
+	margin:0px;
+	padding:0px;
+	clear:both;
+}
+.float-R {
+	padding: 0px;
+	margin: 5px 0px 5px 5px;
+	position: relative;
+	float: right;
+	overflow: hidden;
+}
+.float-L {
+	padding: 0px;
+	margin: 5px 5px 5px 0px;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+/* Page Links */
+
+a:active {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #666666;
+}
+
+/* Columns */
+
+
+#col-L {
+	padding: 0px;
+	margin: 0px 0px 0px 10px;
+	width: 225px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+#col-R {
+	padding: 0px;
+	margin: 0px 10px 0px 0px;
+	width: 710px;
+	float: right;
+	overflow: hidden;
+	position: relative;
+}
+
+
+
+/* Vertical Block */
+
+.v-box {
+	padding: 0px;
+	margin: 0px 0px 15px 0px;
+	width: 225px;
+	position: relative;
+	overflow: hidden;
+}
+.v-boxTop {
+	padding: 0px;
+	margin: 0px;
+	height: 64px;
+	width: 225px;
+	position: relative;
+	overflow: hidden;
+	background-image: url('../theme/nav-top.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	text-align: left;
+	line-height: 470%;
+	font-size: 115%;
+	text-indent: 25px;
+	font-weight: bold;
+}.v-boxWget {	padding: 0px;	margin: 0px;	height: 64px;	width: 225px;	position: relative;	overflow: hidden;	background-image: url('../theme/nav-top.jpg');	background-repeat: no-repeat;	background-position: center top;	text-align: left;	line-height: 470%;	font-size: 115%;	text-indent: 25px;	font-weight: bold;}
+.v-boxFiller {
+	background-image: url('../theme/nav-filler.jpg');
+	background-repeat: repeat-y;
+	background-position: center top;
+	padding: 0px;
+	margin: 0px;
+	width: 225px;
+	position: relative;
+	overflow: hidden;
+}
+
+.v-boxInfo {
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	width: 170px;
+	position: relative;
+	color: #333333;
+	overflow: hidden;
+	font-size: 90%;
+}
+.v-boxInfo ul {
+	padding : 0px;
+	margin : 0px;
+	list-style-type : none;
+	width : 170px;
+	position : relative;
+}
+.v-boxInfo ul li {
+	padding : 0px;
+	margin: 0px 0px 2px 0px;
+}
+.v-boxInfo ul li a {
+	background-position: 0px 0px;
+	margin: 0px;
+	display : block;
+	padding: 0px 0px 0px 25px;
+	color: #990000;
+	text-decoration : none;
+	font-size: 100%;
+	line-height : 160%;
+	text-align : left;
+	position : relative;
+	background-repeat : no-repeat;
+	background-image: url('../theme/nav-butn.jpg');
+	width: 170px;
+	height: 20px;
+}
+.v-boxInfo li a.current {
+	background-position: 0px 0px;
+	color : #990000;
+}
+.v-boxInfo li a:hover {
+	background-position : 0px -20px;
+	color: #FF0000;
+	background-image : url('../theme/nav-butn.jpg');
+	background-repeat : no-repeat;
+}
+/* Content Block */
+
+.cnt-box {
+	padding: 0px;
+	margin: 0px 0px 15px 0px;
+	width: 710px;
+	position: relative;
+	overflow: hidden;
+}
+.cnt-boxTop {
+	padding: 0px;
+	margin: 0px;
+	height: 65px;
+	width: 710px;
+	position: relative;
+	overflow: hidden;
+	background-image: url('../theme/cnt-top.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	text-align: left;
+	line-height: 380%;
+	font-size: 130%;
+	text-indent: 25px;
+	color: #800000;
+	font-weight: bold;
+}
+.cnt-boxFiller {
+	background-image: url('../theme/cnt-filler.jpg');
+	background-repeat: repeat-y;
+	background-position: center top;
+	padding: 0px;
+	margin: 0px;
+	width: 710px;
+	position: relative;
+	overflow: hidden;
+}
+.cnt-boxFoot {
+	background-image: url('../theme/cnt-btm.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 710px;
+	height: 55px;
+	position: relative;
+	overflow: hidden;
+}
+.cnt-boxInfo {
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	width: 664px;
+	position: relative;
+	color: #333333;
+	overflow: hidden;
+	font-size: 90%;
+}
+.author {
+	padding: 0px;
+	color: #800000;
+	text-align: right;
+	width: 225px;
+	height: 15px;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-left: 440px;
+	font-size: 80%;
+	position: relative;
+}
+#banner-img {
+	width: 978px;
+	height: 142px;
+	position: relative;
+	background-image: url('../theme/banner-template.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin: 0px auto 0px auto;
+	padding: 0px;
+}
